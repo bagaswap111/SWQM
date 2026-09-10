@@ -1,37 +1,44 @@
 ```
-# Microsoft Office files
-*.docx
-
-# Python
-*.pyc
-__pycache__/
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Build artifacts
-dist/
-build/
-target/
-
-# Logs and temp files
-*.log
-*.tmp
-
 # Editors
 .vscode/
 .idea/
-*.swp
 
-# OS
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
 .DS_Store
 Thumbs.db
-```.next/
-.next/
+
+# Build and distribution
+build/
+dist/
+*.egg
+*.egg-info/
+MANIFEST
+```
